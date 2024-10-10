@@ -23,6 +23,12 @@
 .p-color {
   color: #0d1321;
   opacity: 0.7;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.text-center {
+  text-align: center;
 }
 
 /* header - logo  and resume link */
@@ -40,11 +46,44 @@
 }
 
 .resume button {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   padding: 15px 20px;
   border-radius: 8px;
   border: 1px solid #0d1321;
   opacity: 0.8;
   cursor: pointer;
+}
+
+/* banner */
+.banner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(../assets/Hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 40px 0;
+}
+.banner-container img {
+  width: 130px;
+}
+.banner-container h2 {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 48px; /* 141.667% */
+  margin-top: 20px;
+}
+.banner-container p {
+  margin: 20px 0 25px 0;
+}
+.banner-container a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 20px;
+  border-radius: 8px;
+  background: #0d1321;
+  text-decoration: none;
 }
