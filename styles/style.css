@@ -149,3 +149,10 @@ article {
 /* .blog-items-2 > .blog-content {
   margin-right: 0;
 } */
+
+/* Inspiration */
+iframe {
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+}
