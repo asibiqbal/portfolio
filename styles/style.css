@@ -30,6 +30,29 @@
 .text-center {
   text-align: center;
 }
+.middle {
+  margin: 0 auto;
+}
+.section-gap {
+  padding-bottom: 70px;
+}
+.common-section {
+  padding-bottom: 70px;
+}
+.common-title {
+  font-size: 26px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.common-btn {
+  color: #0d1321;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 18px;
+  border: 1px solid #0d1321;
+  opacity: 0.7;
+  cursor: pointer;
+}
 
 /* header - logo  and resume link */
 .header-container {
@@ -87,3 +110,42 @@
   background: #0d1321;
   text-decoration: none;
 }
+
+/* ariticle */
+article {
+  width: 1140px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  padding: 70px 0;
+}
+.blog-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.blog-items {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  margin-bottom: 50px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  width: 850px;
+}
+.blog-content h3 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px; /* 150% */
+}
+.blog-content p {
+  margin: 20px 0;
+}
+/* .blog img {
+  width: 240px;
+} */
+/* .blog-items-2 > .blog-content {
+  margin-right: 0;
+} */
