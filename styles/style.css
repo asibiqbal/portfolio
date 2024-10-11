@@ -240,3 +240,27 @@ input::placeholder {
   border: none;
   cursor: pointer;
 }
+
+/* footer */
+footer {
+  background: rgba(13, 19, 33, 0.03);
+  margin-top: 70px;
+}
+.footer-container {
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+.footer-content {
+  margin-left: -30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.footer-social {
+  margin-right: -30px;
+}
+.middle-social {
+  margin: 0 20px;
+}
