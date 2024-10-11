@@ -171,6 +171,7 @@ iframe {
 }
 .skill-items {
   padding: 30px;
+  width: 320px;
 }
 .skill-items h4 {
   font-size: 20px;
