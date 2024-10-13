@@ -95,7 +95,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url(../assets/hero-bg.png);
+  background: url(../assets/banner-bg.png);
   background-repeat: no-repeat;
   background-position: center;
   padding: 40px 0;
@@ -226,7 +226,7 @@ iframe {
     ),
     linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
     linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
-    url(../assets/handshake.jpg) lightgray 50% / cover no-repeat;
+    url(../assets/form.jpg) lightgray 50% / cover no-repeat;
   padding: 60px 40px;
 }
 .support-content {
